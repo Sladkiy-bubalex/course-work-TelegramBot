@@ -213,3 +213,5 @@ def delete_word_user(word: str, chat_id: int) -> bool:
                 session.add(user_word)
                 session.commit()
                 return True
+
+session.close()
